@@ -6,7 +6,7 @@ import ContactPage from './components/ContactPage';
 import DUISPage from './components/DUISPage';
 import CriminalDefencePage from './components/CriminalDefencePage';
 import PersonalInjuryPage from './components/PersonalInjuryPage';
-import Hompage from './components/HomePage';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <header className="App-header">
       </header>
       <React.Fragment>
+        <Route />
         <HomePage />
         <AboutPage />
         <ContactPage />
