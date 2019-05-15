@@ -7,20 +7,22 @@ import DUISPage from './components/DUISPage';
 import CriminalDefencePage from './components/CriminalDefencePage';
 import PersonalInjuryPage from './components/PersonalInjuryPage';
 import { Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <NavBar />
       </header>
       <React.Fragment>
-        <Route />
-        <HomePage />
-        <AboutPage />
-        <ContactPage />
-        <DUISPage />
-        <PersonalInjuryPage />
-        <CriminalDefencePage />
+        <Route exact path='/' component={HomePage}/>
+        <Route exact path='/about' component={AboutPage}/>
+        <Route exact path='/contact' component={ContactPage}/>
+        <Route exact path='/duis' component={DUISPage}/>
+        <Route exact path='/personalInjury' component={PersonalInjuryPage}/>
+        <Route exact path='/criminalDefence' component={CriminalDefencePage}/>
       </React.Fragment>
     </div>
   );
