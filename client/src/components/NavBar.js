@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import CriminalDefencePage from './CriminalDefencePage';
-import PersonalInjuryPage from './PersonalInjuryPage';
 
 
 class NavBar extends Component {
     render() {
         return (
             <div>
-                <ul>
-                    <li><NavLink to='/home' >Home</NavLink></li>
-                    <li><NavLink to='/contact'>contact</NavLink></li>
-                    <li><NavLink to='/crimnalDefence'>Criminal Defence</NavLink></li>
-                    <li><NavLink to='/DUIS'>DUIS</NavLink></li>
-                    <li><NavLink to='/personalInjury'>Personal Personal Injury</NavLink></li>
+                <ul className='nav'>
+                    <li className='nav-link'><NavLink to='/' >Home</NavLink></li>
+                    <li className='nav-link'><NavLink to='/contact'>Contact</NavLink></li>
+                    <li className='nav-link'><NavLink to='/criminalDefence'>Criminal Defence</NavLink></li>
+                    <li className='nav-link'><NavLink to='/DUIS'>DUIS</NavLink></li>
+                    <li className='nav-link'><NavLink to='/personalInjury'>Personal Personal Injury</NavLink></li>
                 </ul>
             </div>
         );
