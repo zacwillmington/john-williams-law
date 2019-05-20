@@ -20,5 +20,25 @@ div.navBar {
   /* display: inline-block; */
   height: 50px;
   margin-top: 55px;
+ float: right;
   vertical-align: middle;
+}
+
+/* Home Page */
+
+.homePage {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-1 {
+  width: 360px; 
+  padding: 25px;
+  background: lightgray;
+  border: 1px solid black;
+}
+
+.content-2 {
+  width: 300px;
+  height: auto;
 }
