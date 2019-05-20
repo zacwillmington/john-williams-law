@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <img id='logo' src='https://static.wixstatic.com/media/5d49f2_bff266cfa6b548a883a98712f38a248a~mv2.jpg/v1/fill/w_88,h_90,al_c,q_80,usm_0.66_1.00_0.01/5d49f2_bff266cfa6b548a883a98712f38a248a~mv2.webp'></img>
         <NavBar />
       </header>
       <React.Fragment>
