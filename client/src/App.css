@@ -14,10 +14,12 @@ img#logo {
   flex-direction: row;
   font-size: calc(5px + 2vmin);
   color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 div.navBar {
-  /* display: inline-block; */
   height: 50px;
   margin-top: 55px;
  float: right;
@@ -27,9 +29,6 @@ div.navBar {
 /* Home Page */
 
 .homePage {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-items: center; */
 }
 
 .top-content {
@@ -37,7 +36,7 @@ div.navBar {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  margin: 5%;
+  margin: 12% auto 5% auto;
   justify-content: space-around;
 }
 .content-1 {
@@ -45,6 +44,7 @@ div.navBar {
   padding: 15px;
   background: lightgray;
   border: 1px solid black;
+  
 }
 
 .content-2 {
@@ -61,12 +61,24 @@ div.navBar {
   flex-direction: column;
   flex: 1 100%;
   max-width: 600px;
+  background: none;
 }
 
 .content-3 h1 {
   font-size: 3em;
 }
 
-.middle-content span {
-  max-width: 200px;
+.middle-content {
+  margin: 150px auto;
+  height: 600px;
+  background-color: antiquewhite;
+}
+
+.middle-content h1 {
+  margin-top: 5%; 
+}
+
+.middle-content p {
+  max-width: 500px;
+  margin: 5% auto;
 }

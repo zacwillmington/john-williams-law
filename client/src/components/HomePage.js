@@ -15,8 +15,8 @@ class HomePage extends Component {
                 <h3>Let my 37 years of experience representing those accused of crimes ranging from murders to misdemeanors guide you to the best possible outcome for your case</h3>
             </div>
             <div className='middle-content'>
-                <h1>MY PHLOSOPHY</h1>
-                <span>Aggressive, ethical representation purposed to achieve the most favorable outcome recognizing the facts of each case, the applicable law, and the unique circumstances that each client brings.</span>
+                <h1>MY PHILOSOPHY</h1>
+                <p>Aggressive, ethical representation purposed to achieve the most favorable outcome recognizing the facts of each case, the applicable law, and the unique circumstances that each client brings.</p>
             </div>
         </div>
         );
