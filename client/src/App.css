@@ -27,18 +27,46 @@ div.navBar {
 /* Home Page */
 
 .homePage {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center; */
 }
 
+.top-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5%;
+  justify-content: space-around;
+}
 .content-1 {
-  width: 360px; 
-  padding: 25px;
+  width: 350px; 
+  padding: 15px;
   background: lightgray;
   border: 1px solid black;
 }
 
 .content-2 {
-  width: 300px;
+  width: 350px;
   height: auto;
+}
+
+.content-2 h3, .content-2 span {
+  font-size: 1.5em;
+}
+
+.content-3 {
+  margin: 50px auto; 
+  flex-direction: column;
+  flex: 1 100%;
+  max-width: 600px;
+}
+
+.content-3 h1 {
+  font-size: 3em;
+}
+
+.middle-content span {
+  max-width: 200px;
 }
