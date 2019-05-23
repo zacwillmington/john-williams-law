@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cinzel', 'Quicksand', sans-serif;
   background-color: #f4f6fc;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, a {
+  font-weight: 600;
 }
 
 img#logo {
@@ -38,16 +42,27 @@ li a {
 }
 
 /* Home Page */
+.homePage {
+  top: 0;
+  margin: 200px auto;
+  background-image: url('https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558646647/sebastian-pichler-25154-unsplash.jpg');
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;               
+}
 
+.top-half {
+  background-image: url('https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558646647/sebastian-pichler-25154-unsplash.jpg'); 
+}
 .top-content {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  margin: 12% auto 5% auto;
+  margin: 0 auto 5% auto;
   justify-content: space-around;
-  background-color: #f4f6fc;
-
+  /* background-color: #f4f6fc; */
+  background: transparent;
 }
 .content-1 {
   width: 350px; 
