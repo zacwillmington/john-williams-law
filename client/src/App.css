@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f4f6fc;
 }
 
 img#logo {
@@ -9,7 +11,7 @@ img#logo {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5a7bb5;
   display: flex;
   flex-direction: row;
   font-size: calc(5px + 2vmin);
@@ -26,10 +28,16 @@ div.navBar {
   vertical-align: middle;
 }
 
-/* Home Page */
-
-.homePage {
+ul {
+  float: right;
 }
+
+li a {
+  /* color: #70def1; */
+  color: beige;
+}
+
+/* Home Page */
 
 .top-content {
   display: flex;
@@ -38,6 +46,8 @@ div.navBar {
   flex-wrap: wrap;
   margin: 12% auto 5% auto;
   justify-content: space-around;
+  background-color: #f4f6fc;
+
 }
 .content-1 {
   width: 350px; 
@@ -70,15 +80,21 @@ div.navBar {
 
 .middle-content {
   margin: 150px auto;
-  height: 600px;
-  background-color: antiquewhite;
+  height: 500px;
+  padding: 9%;
+  background-color: #ccdcf2;
 }
 
 .middle-content h1 {
-  margin-top: 5%; 
+  font-size: 3.5em;
 }
 
 .middle-content p {
   max-width: 500px;
   margin: 5% auto;
+  font-size: 1.2em;
+}
+
+.bottom-content {
+  height: 500px;
 }

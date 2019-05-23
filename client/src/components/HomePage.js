@@ -18,6 +18,10 @@ class HomePage extends Component {
                 <h1>MY PHILOSOPHY</h1>
                 <p>Aggressive, ethical representation purposed to achieve the most favorable outcome recognizing the facts of each case, the applicable law, and the unique circumstances that each client brings.</p>
             </div>
+            <div className='bottom-content'>
+                <h1>PRACTICE AREAS</h1>
+                
+            </div>
         </div>
         );
     }
