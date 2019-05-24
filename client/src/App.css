@@ -101,7 +101,7 @@ li a {
   background: lightgray;
   opacity: 0.9;
   padding: 25px 50px;
-  border: 1px solid grey;
+  border: 2px dotted #E1D8CB
 }
 
 .content-3 h1 {
@@ -118,6 +118,7 @@ li a {
 
 .middle-content h1 {
   font-size: 3.5em;
+  text-align: center;
 }
 
 .middle-content p {
@@ -128,19 +129,20 @@ li a {
 
 .bottom-content {
   height: 500px;
-  background-color: rgb(196, 171, 141);
+  background-color: #E1D8CB;
+  display: flex;
 }
 
-#law-book, #jail-cell, #breathaliser {
+.law-book, .breathlyser, .jail-cell{
+}
+
+
+#law-book, #jail-cell, #breathalyser {
   border-radius: 50%;
+  height: 250px;
+  width: 225px;
   margin: 25px; 
-  border: 2px solid #C7C3C3;
+  border: 2px solid black;
+  display: flex;
 }
 
-#jail-cell {
-
-}
-
-#breathaliser {
-
-}
