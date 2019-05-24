@@ -22,7 +22,9 @@ class HomePage extends Component {
                 </div>
                 <div className='bottom-content'>
                     <h1>PRACTICE AREAS</h1>
-
+                    <img id='law-book' src='https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558735806/Screen_Shot_2019-05-23_at_4.18.37_PM.png' alt='law-book'></img>
+                    <img id='jail-cell' src='https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558735804/Screen_Shot_2019-05-23_at_4.19.23_PM.png' alt='jail-cell'></img>
+                    <img id='breathaliser' src='https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558735801/Screen_Shot_2019-05-23_at_4.20.19_PM.png' alt='breathaliser'></img>
                 </div>
         </div>
         );

@@ -7,7 +7,7 @@
 html {
   height: 100%;
 }
-h1, h2, h3, h4, h5, h6, span, p, a {
+h1, h2, h3, h4, h5, h6, span, p, a{
   font-weight: 600;
   color: black; 
 }
@@ -86,6 +86,11 @@ li a {
 
 .content-2 h3, .content-2 span {
   font-size: 1.5em;
+
+}
+
+.content-2 span {
+  margin-top: 15%;
 }
 
 .content-3 {
@@ -105,7 +110,7 @@ li a {
 }
 
 .middle-content {
-  margin: 150px auto;
+  margin-top: 150px;
   height: 500px;
   padding: 9%;
   background-color: #C7C3C3;
@@ -123,4 +128,19 @@ li a {
 
 .bottom-content {
   height: 500px;
+  background-color: rgb(196, 171, 141);
+}
+
+#law-book, #jail-cell, #breathaliser {
+  border-radius: 50%;
+  margin: 25px; 
+  border: 2px solid #C7C3C3;
+}
+
+#jail-cell {
+
+}
+
+#breathaliser {
+
 }
