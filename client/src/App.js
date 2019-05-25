@@ -8,6 +8,8 @@ import CriminalDefencePage from './components/CriminalDefencePage';
 import PersonalInjuryPage from './components/PersonalInjuryPage';
 import { Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
         <Route exact path='/personalInjury' component={PersonalInjuryPage}/>
         <Route exact path='/criminalDefence' component={CriminalDefencePage}/>
       </React.Fragment>
+      {/* <Footer/> */}
     </div>
   );
 }
