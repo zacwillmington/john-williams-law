@@ -22,10 +22,10 @@ function App() {
       <React.Fragment>
         <Route exact path='/' component={HomePage}/>
         <Route exact path='/about' component={AboutPage}/>
-        <Route exact path='/contact' component={ContactPage}/>
         <Route exact path='/duis' component={DUISPage}/>
         <Route exact path='/personalInjury' component={PersonalInjuryPage}/>
         <Route exact path='/criminalDefence' component={CriminalDefencePage}/>
+        <Route exact path='/contact' component={ContactPage}/>
       </React.Fragment>
       {/* <Footer/> */}
     </div>
