@@ -1,12 +1,38 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import HamburgerMenu from 'react-hamburger-menu';
 
 class NavBar extends Component {
-    render() {
+    constructor(){
+        super()
+        this.state = {
+            open: false
+        }
+    }
+
+    handleClick = () => {
+        this.setState({open: !this.state.open});  
+    }
+
+    displayHamburgerMenu = () => {
         return (
-            <div className='navBar'>
-                <ul className='nav'>
+            <HamburgerMenu
+                    isOpen={this.state.open}
+                    menuClicked={this.handleClick.bind(this)}
+                    width={18}
+                    height={15}
+                    strokeWidth={1}
+                    rotate={0}
+                    color='white'
+                    borderRadius={0}
+                    animationDuration={0.5}
+                />
+        )
+    }
+
+    displayNavBar = () => {
+        return (
+            <ul className='nav'>
                     <li className='nav-link'><NavLink to='/' >Home</NavLink></li>
                     <li className='nav-link'><NavLink to='/about'>About John Williams</NavLink></li>
                     <li className='nav-link'><NavLink to='/criminalDefence'>Criminal Defence</NavLink></li>
@@ -14,6 +40,18 @@ class NavBar extends Component {
                     <li className='nav-link'><NavLink to='/personalInjury'>Personal Personal Injury</NavLink></li>
                     <li className='nav-link'><NavLink to='/contact'>Contact</NavLink></li>
                 </ul>
+        )
+    }
+
+    displayMobileMenu = () => {
+        debugger
+    }
+
+    render() {
+        return (
+            <div className='navBar'>
+                {window.innerWidth > 1200 ? this.displayNavBar() : this.displayHamburgerMenu()}
+                { this.state.open ?  this.displayMobileMenu() : null}
             </div>
         );
     }
