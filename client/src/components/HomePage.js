@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class HomePage extends Component {
     render() {
@@ -22,18 +23,18 @@ class HomePage extends Component {
                 </div>
                 <div className='bottom-content'>
                     <div className='title-bottom-content'><h1>PRACTICE AREAS</h1></div>
-                    <div className='law-book'>
+                    <NavLink className='law-book' to='personalInjury'>
                         <img id='law-book' src='https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558735806/Screen_Shot_2019-05-23_at_4.18.37_PM.png' alt='law-book'></img>
                         <div><p id='img-p-law-book'>PERSONAL INJURY</p></div>
-                    </div>
-                    <div className='jail-cell'>
+                    </NavLink>
+                    <NavLink className='jail-cell' to='criminalDefence'>
                         <img id='jail-cell' src='https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558735804/Screen_Shot_2019-05-23_at_4.19.23_PM.png' alt='jail-cell'></img>
                         <div><p id='img-p-jail-cell'>CRIMINAL DEFENCE</p></div>    
-                    </div>
-                    <div className='breathlyser'>
+                    </NavLink>
+                    <NavLink className='breathlyser' to='/DUIS'>
                         <img id='breathalyser' src='https://res.cloudinary.com/dmjs1tfzn/image/upload/v1558735801/Screen_Shot_2019-05-23_at_4.20.19_PM.png' alt='breathalyser'></img>
                         <div><p id='img-p-breathlyser'>DUI'S</p></div>
-                    </div>
+                    </NavLink>
                 </div>
         </div>
         );

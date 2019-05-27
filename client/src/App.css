@@ -193,29 +193,35 @@ p#img-p-law-book , p#img-p-breathlyser, p#img-p-jail-cell {
 }
 
 /* About Page */
-/* header #A59374 */
 
 .about-page {
   background-color: #E1D8CB;
+  min-height: 600px;
 }
+
 .about-page-conent {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
   margin: auto;
 }
 
-.about-page-content h1 {
+.about-page h1 {
   background-color: #A59374;
+  height: 100px;
+  padding: 25px;
 }
 
-.john-williams-img {
-  width: 400px;
-  height: 600px;
+.about-page__info-content {
+  display: flex;
+  padding: 50px 100px;
 }
 
-.john-williams-img img {
-  width: 100%;
+.about-page-content img {
+  height: 400px;
+  margin-top: 25px;
+}
+
+.about-page__info-content p {
+  margin: 25px 50px;
+  text-align: left;
 }
 
 
