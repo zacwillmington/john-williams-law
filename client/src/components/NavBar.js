@@ -46,7 +46,7 @@ class NavBar extends Component {
 
     displayMobileMenu = () => {
         return (
-            <ul className={'hamburgerDropDown'}>
+            <ul className='hamburgerDropDown'>
                     <li className='nav-link'><NavLink to='/' >Home</NavLink></li>
                     <li className='nav-link'><NavLink to='/about'>About John Williams</NavLink></li>
                     <li className='nav-link'><NavLink to='/criminalDefence'>Criminal Defence</NavLink></li>
@@ -61,8 +61,8 @@ class NavBar extends Component {
     render() {
         return (
             <div className='navbar'>
-                {window.innerWidth > 1200 ? this.displayNavBar() : this.displayHamburgerMenu()}
                 { this.state.open ?  this.displayMobileMenu() : null}
+                {window.innerWidth > 1200 ? this.displayNavBar() : this.displayHamburgerMenu()}
             </div>
         );
     }
