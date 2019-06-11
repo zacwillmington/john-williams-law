@@ -55,7 +55,6 @@ class NavBar extends Component {
                     <li className='nav-link'><NavLink to='/contact'>Contact</NavLink></li>
                 </ul>
         )
-        
     }
 
     render() {
@@ -69,3 +68,9 @@ class NavBar extends Component {
 }
 
 export default NavBar;
+
+
+
+
+
+
