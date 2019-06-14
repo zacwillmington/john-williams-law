@@ -27,7 +27,7 @@ function App() {
         <Route exact path='/criminalDefence' component={CriminalDefencePage}/>
         <Route exact path='/contact' component={ContactPage}/>
       </React.Fragment>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
