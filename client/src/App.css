@@ -384,6 +384,14 @@ ul.hamburgerDropDown {
   display: inline-block;
 }
 
+.footer {
+  width: 100vw;
+}
+
+.footer a {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 600px) {
